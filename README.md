@@ -144,7 +144,7 @@ An edge router provides internet access through the ISP/Cloud.
 ### WAN Interface
 The external router interface obtains its address dynamically from the ISP using:
 ip address dhcp
-```
+
 
 Routing
 	•	Central-L3SW default route → 10.10.10.1
