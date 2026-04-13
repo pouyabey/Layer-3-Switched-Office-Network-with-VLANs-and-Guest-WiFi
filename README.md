@@ -183,20 +183,20 @@ SSH was configured for switch management using:
 
 ## Key Features Implemented
 
-	•	Layer 3 switch-based inter-VLAN routing
-	•	VLAN segmentation by department
-	•	Centralized DHCP and DNS services
-	•	DHCP relay with ip helper-address
-	•	Guest Wi-Fi access
-	•	Guest network isolation with ACL
-	•	Management VLAN
-	•	Voice VLAN for IP phones
-	•	Port security with sticky MAC
-	•	PortFast and BPDU Guard
-	•	PAT for internal clients
-	•	Static NAT for the web server
-	•	HTTP/HTTPS hosting
-	•	SSH management and device hardening
+- Layer 3 switch-based inter-VLAN routing
+- VLAN segmentation by department
+- Centralized DHCP and DNS services
+- DHCP relay with `ip helper-address`
+- Guest Wi-Fi access
+- Guest network isolation with ACL
+- Management VLAN
+- Voice VLAN for IP phones
+- Port security with sticky MAC
+- PortFast and BPDU Guard
+- PAT for internal clients
+- Static NAT for the web server
+- HTTP/HTTPS hosting
+- SSH management and device hardening
 
 ⸻
 
