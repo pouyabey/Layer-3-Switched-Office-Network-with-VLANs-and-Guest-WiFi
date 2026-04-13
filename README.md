@@ -175,9 +175,9 @@ SSH was configured for switch management using:
 
 ## Additional hardening included:
 
-	•	service password-encryption
-	•	enable secret
-	•	banner motd
+- `service password-encryption`
+- `enable secret`
+- `banner motd`
 
 ⸻
 
