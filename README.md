@@ -48,6 +48,7 @@ The topology includes:
 ## Core Design
 The network is centered on a **3560 multilayer switch** that performs:
 
+- SVI-based routing on a multilayer switch instead of internal OSPF-based routing
 - VLAN gateway termination through **SVIs**
 - **inter-VLAN routing** using `ip routing`
 - **DHCP relay** with `ip helper-address`
@@ -162,7 +163,7 @@ This allows internal users to access the internet while also publishing the inte
 
 ⸻
 
-SSH and Device Hardening
+## SSH and Device Hardening
 
 SSH was configured for switch management using:
 	•	hostname
@@ -172,14 +173,14 @@ SSH was configured for switch management using:
 	•	SSH version 2
 	•	VTY lines restricted to SSH
 
-Additional hardening included:
+## Additional hardening included:
 	•	service password-encryption
 	•	enable secret
 	•	banner motd
 
 ⸻
 
-Key Features Implemented
+## Key Features Implemented
 	•	Layer 3 switch-based inter-VLAN routing
 	•	VLAN segmentation by department
 	•	Centralized DHCP and DNS services
@@ -197,7 +198,7 @@ Key Features Implemented
 
 ⸻
 
-Skills Demonstrated
+## Skills Demonstrated
 
 This project demonstrates hands-on experience with:
 	•	Layer 2 and Layer 3 switching
