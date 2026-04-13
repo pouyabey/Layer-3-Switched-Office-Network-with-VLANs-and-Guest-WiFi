@@ -174,6 +174,7 @@ SSH was configured for switch management using:
 	•	VTY lines restricted to SSH
 
 ## Additional hardening included:
+
 	•	service password-encryption
 	•	enable secret
 	•	banner motd
@@ -181,6 +182,7 @@ SSH was configured for switch management using:
 ⸻
 
 ## Key Features Implemented
+
 	•	Layer 3 switch-based inter-VLAN routing
 	•	VLAN segmentation by department
 	•	Centralized DHCP and DNS services
@@ -215,6 +217,6 @@ This project demonstrates hands-on experience with:
 
 ⸻
 
-Author
+## Author
 
 Built as a networking portfolio project to demonstrate practical Layer 3 switching, VLAN segmentation, wireless guest isolation, access-layer security, centralized services, and edge connectivity in Cisco Packet Tracer.
